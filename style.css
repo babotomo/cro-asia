@@ -158,20 +158,20 @@ a {
 /* HERO */
 .hero {
   position: relative;
-  min-height: 690px;
+  min-height: 620px;
   overflow: hidden;
   background: #f4f5f8;
 }
 
 .hero-bg {
-position: absolute;
+  position: absolute;
   top: 0;
   right: 0;
-  width: 58%;
+  width: 56%;
   height: 100%;
   background-image: url("asean-hero-4k.png");
   background-repeat: no-repeat;
-  background-position: 100% 35%;
+  background-position: right center;
   background-size: cover;
   z-index: 0;
 }
@@ -183,34 +183,34 @@ position: absolute;
   background: linear-gradient(
     90deg,
     rgba(244,245,248,1) 0%,
-    rgba(244,245,248,0.98) 28%,
-    rgba(244,245,248,0.94) 40%,
-    rgba(244,245,248,0.78) 49%,
-    rgba(244,245,248,0.34) 60%,
-    rgba(244,245,248,0.06) 71%,
-    rgba(244,245,248,0) 79%
-    );
+    rgba(244,245,248,0.98) 30%,
+    rgba(244,245,248,0.94) 42%,
+    rgba(244,245,248,0.82) 50%,
+    rgba(244,245,248,0.38) 61%,
+    rgba(244,245,248,0.05) 72%,
+    rgba(244,245,248,0) 80%
+  );
 }
 
 .hero-inner {
   position: relative;
   z-index: 2;
-  min-height: 690px;
+  min-height: 620px;
   display: flex;
   align-items: center;
 }
 
 .hero-left {
   width: 100%;
-  max-width: 730px;
-  padding-top: 10px;
+  max-width: 760px;
+  padding-top: 0;
 }
 
 .hero h1 {
-  font-size: 76px;
+  font-size: 66px;
   line-height: 1.04;
   font-weight: 800;
-  letter-spacing: -2px;
+  letter-spacing: -1.8px;
   color: var(--blue);
 }
 
@@ -225,26 +225,26 @@ position: absolute;
 }
 
 .hero-accent-text p {
-  font-size: 30px;
+  font-size: 22px;
   line-height: 1.45;
   color: #28497f;
   font-weight: 400;
 }
 
 .hero-actions {
-  margin-top: 44px;
+  margin-top: 34px;
   display: flex;
-  gap: 22px;
+  gap: 20px;
   flex-wrap: wrap;
 }
 
 .btn-primary {
   background: var(--blue);
   color: var(--white);
-  padding: 22px 34px;
-  min-width: 250px;
-  min-height: 78px;
-  font-size: 20px;
+  padding: 18px 30px;
+  min-width: 210px;
+  min-height: 56px;
+  font-size: 16px;
   box-shadow: var(--shadow);
 }
 
@@ -253,13 +253,13 @@ position: absolute;
 }
 
 .btn-outline {
-  background: rgba(255,255,255,0.7);
+  background: rgba(255,255,255,0.88);
   color: var(--blue);
   border: 2px solid #97a5c2;
-  padding: 20px 34px;
-  min-width: 290px;
-  min-height: 78px;
-  font-size: 20px;
+  padding: 18px 30px;
+  min-width: 230px;
+  min-height: 56px;
+  font-size: 16px;
 }
 
 .btn-outline:hover {
@@ -267,10 +267,9 @@ position: absolute;
 }
 
 .arrow {
-  font-size: 24px;
+  font-size: 20px;
   line-height: 1;
 }
-
 /* STATS */
 .stats-wrap {
   position: relative;
