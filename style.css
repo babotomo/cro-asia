@@ -644,3 +644,17 @@ a {
     font-size: 34px;
   }
 }
+.hero-left {
+  animation: heroFade 0.8s ease;
+}
+
+@keyframes heroFade {
+  from {
+    opacity:0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity:1;
+    transform: translateY(0);
+  }
+}
