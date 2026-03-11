@@ -165,8 +165,8 @@ a {
   inset: 0;
   background-image: url("Singapore_main.png");
   background-repeat: no-repeat;
-  background-position: right center;
-  background-size: contain;
+  background-position: right top;
+  background-size: 1200px auto;
 }
 
 .hero-fade {
