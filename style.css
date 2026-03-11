@@ -135,11 +135,14 @@ a {
   justify-content: center;
   gap: 14px;
   border-radius: 14px;
-  transition: 0.2s ease;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
   font-weight: 700;
   cursor: pointer;
 }
-
+.btn:hover {
+  transform: translateY(-2px);
+   box-shadow: 0 6px 16px rgba(0,0,0,0.08);
+}
 .btn-header {
   background: var(--blue);
   color: var(--white);
