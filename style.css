@@ -164,15 +164,15 @@ a {
 }
 
 .hero-bg {
-  position: absolute;
+ position: absolute;
   top: 0;
   right: 0;
-  width: 56%;
+  width: 66%;
   height: 100%;
   background-image: url("asean-hero-4k.png");
   background-repeat: no-repeat;
-  background-position: right 58%;
-  background-size: cover;
+  background-size: auto 100%;
+  background-position: right center;
   z-index: 0;
 }
 
@@ -183,12 +183,12 @@ a {
   background: linear-gradient(
     90deg,
     rgba(244,245,248,1) 0%,
-    rgba(244,245,248,0.98) 30%,
-    rgba(244,245,248,0.94) 42%,
-    rgba(244,245,248,0.82) 50%,
-    rgba(244,245,248,0.38) 61%,
-    rgba(244,245,248,0.05) 72%,
-    rgba(244,245,248,0) 80%
+    rgba(244,245,248,0.98) 26%,
+    rgba(244,245,248,0.94) 38%,
+    rgba(244,245,248,0.78) 48%,
+    rgba(244,245,248,0.34) 60%,
+    rgba(244,245,248,0.08) 72%,
+    rgba(244,245,248,0) 82%
   );
 }
 
