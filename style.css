@@ -660,3 +660,321 @@ a {
     font-size: 34px;
   }
 }
+/* MOBILE / TABLET RESPONSIVE */
+@media (max-width: 1024px) {
+  .container {
+    width: calc(100% - 32px);
+  }
+
+  .header-inner {
+    height: auto;
+    padding: 16px 0;
+    flex-wrap: wrap;
+    gap: 14px;
+  }
+
+  .main-nav {
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 14px 18px;
+  }
+
+  .main-nav a {
+    font-size: 14px;
+  }
+
+  .header-right {
+    gap: 14px;
+  }
+
+  .hero {
+    min-height: auto;
+    padding: 40px 0 90px;
+  }
+
+  .hero-bg {
+    width: 100%;
+    height: 100%;
+    background-size: auto 100%;
+    background-position: right center;
+    opacity: 0.95;
+  }
+
+  .hero-fade {
+    background: linear-gradient(
+      180deg,
+      rgba(244,245,248,0.96) 0%,
+      rgba(244,245,248,0.90) 24%,
+      rgba(244,245,248,0.78) 44%,
+      rgba(244,245,248,0.46) 66%,
+      rgba(244,245,248,0.10) 82%,
+      rgba(244,245,248,0) 100%
+    );
+  }
+
+  .hero-inner {
+    min-height: auto;
+    align-items: flex-start;
+  }
+
+  .hero-left {
+    max-width: 100%;
+  }
+
+  .hero h1 {
+    font-size: 52px;
+    line-height: 1.08;
+    letter-spacing: -1px;
+  }
+
+  .hero-accent-text p {
+    font-size: 21px;
+  }
+
+  .hero-actions {
+    gap: 14px;
+  }
+
+  .btn-primary,
+  .btn-outline {
+    min-width: 0;
+    min-height: 56px;
+    font-size: 16px;
+    padding: 16px 22px;
+  }
+
+  .stats-wrap {
+    margin-top: -42px;
+  }
+
+  .stats-card {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 14px;
+    padding: 20px;
+  }
+
+  .benefit-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .country-list {
+    grid-template-columns: repeat(5, 1fr);
+  }
+
+  .content-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .site-header {
+    position: static;
+  }
+
+  .container {
+    width: calc(100% - 24px);
+  }
+
+  .logo-main {
+    font-size: 32px;
+  }
+
+  .logo-sub {
+    font-size: 12px;
+    letter-spacing: 1.2px;
+  }
+
+  .main-nav {
+    display: none;
+  }
+
+  .header-inner {
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .header-right {
+    gap: 10px;
+  }
+
+  .lang-switch {
+    font-size: 14px;
+  }
+
+  .btn-header {
+    min-height: 48px;
+    padding: 0 16px;
+    font-size: 14px;
+    border-radius: 12px;
+  }
+
+  .hero {
+    padding: 28px 0 76px;
+  }
+
+  .hero-bg {
+    width: 100%;
+    background-size: cover;
+    background-position: 68% center;
+  }
+
+  .hero h1 {
+    font-size: 40px;
+    line-height: 1.08;
+  }
+
+  .hero-accent-text {
+    margin-top: 22px;
+    padding-left: 14px;
+  }
+
+  .hero-accent-text p {
+    font-size: 18px;
+    line-height: 1.42;
+  }
+
+  .hero-actions {
+    margin-top: 24px;
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .btn-primary,
+  .btn-outline {
+    width: 100%;
+  }
+
+  .stats-wrap {
+    margin-top: -26px;
+  }
+
+  .stats-card {
+    grid-template-columns: 1fr;
+    border-radius: 16px;
+  }
+
+  .stat-item {
+    min-height: 72px;
+  }
+
+  .stat-number {
+    font-size: 24px;
+  }
+
+  .stat-label {
+    font-size: 14px;
+  }
+
+  .why-section {
+    padding-top: 40px;
+  }
+
+  .section-head h2 {
+    font-size: 36px;
+    line-height: 1.1;
+  }
+
+  .section-line {
+    width: 110px;
+    margin-top: 14px;
+  }
+
+  .benefit-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .benefit-card {
+    min-height: auto;
+    padding: 24px 22px;
+  }
+
+  .benefit-card h3 {
+    font-size: 28px;
+  }
+
+  .benefit-card p {
+    font-size: 16px;
+  }
+
+  .asean-strip {
+    padding: 48px 0 24px;
+  }
+
+  .asean-strip-inner {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 18px;
+  }
+
+  .asean-title {
+    font-size: 24px;
+  }
+
+  .country-list {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 18px 10px;
+  }
+
+  .country-flag {
+    font-size: 34px;
+  }
+
+  .content-section {
+    padding: 40px 0 60px;
+  }
+
+  .content-box {
+    padding: 22px;
+  }
+
+  .content-box h2 {
+    font-size: 24px;
+  }
+
+  .content-box p {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo-main {
+    font-size: 28px;
+  }
+
+  .logo-sub {
+    font-size: 10px;
+  }
+
+  .flag-dot {
+    width: 18px;
+    height: 18px;
+  }
+
+  .lang-switch {
+    font-size: 13px;
+  }
+
+  .btn-header {
+    font-size: 13px;
+    min-height: 44px;
+    padding: 0 14px;
+  }
+
+  .hero h1 {
+    font-size: 34px;
+  }
+
+  .hero-accent-text p {
+    font-size: 17px;
+  }
+
+  .section-head h2 {
+    font-size: 32px;
+  }
+
+  .benefit-card h3 {
+    font-size: 24px;
+  }
+}
