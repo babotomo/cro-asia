@@ -163,7 +163,7 @@ a {
 .hero-bg {
   position: absolute;
   inset: 0;
-  background-image: url("images/Singapore_main.png");
+  background-image: url("Singapore_main.png");
   background-repeat: no-repeat;
   background-position: right center;
   background-size: cover;
