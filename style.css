@@ -1021,3 +1021,229 @@ a {
   transform: translateY(-1px);
   background: var(--blue-dark);
 }
+/* EXPORT BENEFITS PAGE */
+
+.page-hero {
+  position: relative;
+  width: 100%;
+  min-height: 420px;
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.export-hero {
+  background-image: url("images/kuala-lumpur-hero.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.page-hero-overlay {
+  width: 100%;
+  min-height: 420px;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(
+    90deg,
+    rgba(8, 29, 70, 0.62) 0%,
+    rgba(8, 29, 70, 0.28) 45%,
+    rgba(8, 29, 70, 0.10) 100%
+  );
+}
+
+.page-hero-text {
+  max-width: 680px;
+  color: #ffffff;
+  padding: 90px 0 80px;
+}
+
+.hero-kicker {
+  display: inline-block;
+  margin-bottom: 14px;
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  opacity: 0.9;
+}
+
+.page-hero-text h1 {
+  margin: 0 0 18px;
+  font-size: clamp(2.4rem, 5vw, 4rem);
+  line-height: 1.05;
+  color: #ffffff;
+}
+
+.page-hero-text p {
+  margin: 0;
+  max-width: 620px;
+  font-size: 1.12rem;
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.95);
+}
+
+.export-page {
+  position: relative;
+  padding: 0 0 80px;
+  background:
+    linear-gradient(rgba(245, 248, 252, 0.94), rgba(245, 248, 252, 0.97)),
+    url("images/kuala-lumpur-hero.png") center bottom / cover no-repeat;
+}
+
+.export-content-wrap {
+  margin-top: -70px;
+  position: relative;
+  z-index: 2;
+}
+
+.content-card {
+  background: #ffffff;
+  border-radius: 28px;
+  box-shadow: 0 24px 60px rgba(14, 35, 78, 0.10);
+  padding: 56px 54px;
+  margin-bottom: 34px;
+}
+
+.content-card h2 {
+  margin: 0 0 22px;
+  font-size: 2.05rem;
+  line-height: 1.15;
+  color: var(--blue-dark);
+}
+
+.content-card h3 {
+  margin: 34px 0 16px;
+  font-size: 1.9rem;
+  line-height: 1.2;
+  color: var(--blue-dark);
+}
+
+.content-card p {
+  margin: 0 0 18px;
+  font-size: 1.08rem;
+  line-height: 1.85;
+  color: #31456b;
+}
+
+.benefits-list {
+  margin: 0 0 8px 0;
+  padding-left: 22px;
+}
+
+.benefits-list li {
+  margin-bottom: 12px;
+  font-size: 1.05rem;
+  line-height: 1.75;
+  color: #31456b;
+}
+
+.cta-panel {
+  background: #ffffff;
+  border-radius: 24px;
+  box-shadow: 0 18px 45px rgba(14, 35, 78, 0.08);
+  padding: 42px 44px;
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.cta-panel h3 {
+  margin: 0 0 14px;
+  font-size: 2rem;
+  line-height: 1.2;
+  color: var(--blue-dark);
+}
+
+.cta-panel p {
+  margin: 0 0 24px;
+  max-width: 720px;
+  font-size: 1.08rem;
+  line-height: 1.8;
+  color: #41557a;
+}
+
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 15px 28px;
+  border-radius: 14px;
+  background: var(--blue);
+  color: #ffffff;
+  font-weight: 700;
+  transition: transform 0.2s ease, background 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 10px 24px rgba(22, 61, 122, 0.20);
+}
+
+.btn-primary:hover {
+  background: var(--blue-dark);
+  transform: translateY(-2px);
+}
+
+.site-footer {
+  padding: 20px 0 30px;
+  background: transparent;
+}
+
+.site-footer p {
+  margin: 0;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 900px) {
+  .page-hero,
+  .page-hero-overlay {
+    min-height: 340px;
+  }
+
+  .page-hero-text {
+    padding: 72px 0 64px;
+  }
+
+  .export-content-wrap {
+    margin-top: -40px;
+  }
+
+  .content-card {
+    padding: 36px 24px;
+    border-radius: 22px;
+  }
+
+  .content-card h2 {
+    font-size: 1.8rem;
+  }
+
+  .content-card h3 {
+    font-size: 1.45rem;
+  }
+
+  .cta-panel {
+    padding: 30px 24px;
+    border-radius: 20px;
+  }
+
+  .cta-panel h3 {
+    font-size: 1.55rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .page-hero,
+  .page-hero-overlay {
+    min-height: 290px;
+  }
+
+  .page-hero-text p,
+  .content-card p,
+  .benefits-list li,
+  .cta-panel p {
+    font-size: 1rem;
+  }
+
+  .btn-primary {
+    width: 100%;
+  }
+}
