@@ -1346,13 +1346,13 @@ a {
   height: 360px;
   background-image: url("images/kuala-lumpur-hero.png");
   background-size: cover;
-  background-position: center center;
+  background-position: center 38%;
   background-repeat: no-repeat;
 }
 
 .benefits-page {
-  background: #f4f6fb;
-  padding: 48px 0 0;
+  background: #f3f5fa;
+  padding: 44px 0 0;
 }
 
 .benefits-shell {
@@ -1367,6 +1367,8 @@ a {
   background: #f7f8fc;
   border-radius: 8px;
   padding: 56px 72px;
+  position: relative;
+  z-index: 2;
 }
 
 .benefits-card h1 {
@@ -1409,6 +1411,8 @@ a {
   border-radius: 8px;
   padding: 48px 56px;
   box-shadow: 0 8px 24px rgba(18, 39, 84, 0.06);
+  position: relative;
+  z-index: 2;
 }
 
 .benefits-cta h2 {
@@ -1456,7 +1460,7 @@ a {
 
 .site-footer {
   padding: 20px 0 28px;
-  background: #f4f6fb;
+  background: #f3f5fa;
 }
 
 @media (max-width: 1024px) {
