@@ -1256,3 +1256,12 @@ a {
     width: 100%;
   }
 }
+.content-card {
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 50px 60px;
+  margin-top: -80px;
+  box-shadow: 0 25px 60px rgba(0,0,0,0.08);
+  position: relative;
+  z-index: 2;
+}
