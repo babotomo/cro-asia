@@ -978,3 +978,46 @@ a {
     font-size: 24px;
   }
 }
+.contact-form {
+  max-width: 700px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 14px 16px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  font: inherit;
+  background: var(--white);
+  color: var(--text);
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: var(--blue);
+  box-shadow: 0 0 0 3px rgba(22, 61, 122, 0.08);
+}
+
+.contact-form button {
+  width: fit-content;
+  padding: 14px 24px;
+  border: none;
+  border-radius: 12px;
+  background: var(--blue);
+  color: var(--white);
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.contact-form button:hover {
+  transform: translateY(-1px);
+  background: var(--blue-dark);
+}
