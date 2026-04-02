@@ -1034,10 +1034,7 @@ a {
 }
 
 .export-hero {
-  background-image: url("images/kuala-lumpur-hero.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  background-image: url("/cro-asia/images/kuala-lumpur-hero.png");
 }
 
 .page-hero-overlay {
