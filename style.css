@@ -1339,3 +1339,192 @@ a {
   height: 250px;
   background: url("images/kuala-lumpur-hero.png") center/cover no-repeat;
 }
+/* ===== EXPORT BENEFITS PAGE ===== */
+
+.benefits-hero {
+  width: 100%;
+  height: 360px;
+  background-image: url("images/kuala-lumpur-hero.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.benefits-page {
+  background: #f4f6fb;
+  padding: 48px 0 0;
+}
+
+.benefits-shell {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.benefits-card {
+  max-width: 1180px;
+  margin: 0 auto;
+  background: #f7f8fc;
+  border-radius: 8px;
+  padding: 56px 72px;
+}
+
+.benefits-card h1 {
+  margin: 0 0 28px;
+  font-size: 3rem;
+  line-height: 1.1;
+  color: var(--blue-dark);
+}
+
+.benefits-card h2 {
+  margin: 42px 0 14px;
+  font-size: 2rem;
+  line-height: 1.2;
+  color: var(--blue-dark);
+}
+
+.benefits-card p {
+  margin: 0 0 18px;
+  font-size: 1.08rem;
+  line-height: 1.9;
+  color: #31456b;
+}
+
+.benefits-list {
+  margin: 0 0 8px;
+  padding-left: 24px;
+}
+
+.benefits-list li {
+  margin-bottom: 10px;
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: #31456b;
+}
+
+.benefits-cta {
+  max-width: 1180px;
+  margin: 40px auto 0;
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 48px 56px;
+  box-shadow: 0 8px 24px rgba(18, 39, 84, 0.06);
+}
+
+.benefits-cta h2 {
+  margin: 0 0 16px;
+  font-size: 2.4rem;
+  line-height: 1.15;
+  color: var(--blue-dark);
+}
+
+.benefits-cta p {
+  max-width: 760px;
+  margin: 0 0 28px;
+  font-size: 1.08rem;
+  line-height: 1.8;
+  color: #42577d;
+}
+
+.benefits-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 220px;
+  padding: 16px 28px;
+  border-radius: 8px;
+  background: var(--blue);
+  color: #ffffff;
+  font-weight: 700;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.benefits-btn:hover {
+  background: var(--blue-dark);
+  transform: translateY(-1px);
+}
+
+.benefits-bottom {
+  margin-top: 48px;
+  width: 100%;
+  height: 300px;
+  background-image: url("images/kuala-lumpur-hero.png");
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+
+.site-footer {
+  padding: 20px 0 28px;
+  background: #f4f6fb;
+}
+
+@media (max-width: 1024px) {
+  .benefits-hero {
+    height: 300px;
+  }
+
+  .benefits-card {
+    padding: 40px 32px;
+  }
+
+  .benefits-card h1 {
+    font-size: 2.3rem;
+  }
+
+  .benefits-card h2 {
+    font-size: 1.55rem;
+  }
+
+  .benefits-cta {
+    padding: 36px 32px;
+  }
+
+  .benefits-cta h2 {
+    font-size: 1.8rem;
+  }
+
+  .benefits-bottom {
+    height: 220px;
+  }
+}
+
+@media (max-width: 640px) {
+  .benefits-hero {
+    height: 220px;
+  }
+
+  .benefits-shell {
+    padding: 0 16px;
+  }
+
+  .benefits-card {
+    padding: 28px 20px;
+  }
+
+  .benefits-card h1 {
+    font-size: 2rem;
+  }
+
+  .benefits-card h2 {
+    font-size: 1.35rem;
+  }
+
+  .benefits-card p,
+  .benefits-list li,
+  .benefits-cta p {
+    font-size: 1rem;
+  }
+
+  .benefits-cta {
+    padding: 28px 20px;
+  }
+
+  .benefits-btn {
+    width: 100%;
+  }
+
+  .benefits-bottom {
+    height: 180px;
+  }
+}
