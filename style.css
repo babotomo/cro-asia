@@ -1039,7 +1039,7 @@ a {
 
 .page-hero-overlay {
   width: 100%;
-  min-height: 420px;
+  min-height: 100%;
   display: flex;
   align-items: center;
   background: linear-gradient(
