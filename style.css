@@ -1098,9 +1098,17 @@ a {
   left: 0;
   right: 0;
   bottom: 0;
-  height: 420px; /* povećaj ili smanji po želji */
-  background: url("images/kuala-lumpur-hero-1.png") center top / cover no-repeat;
-  opacity: 0.45;
+  height: 420px;
+
+  background: 
+    linear-gradient(
+      to top,
+      rgba(245, 248, 252, 0.0) 0%,
+      rgba(245, 248, 252, 0.6) 60%,
+      rgba(245, 248, 252, 1) 100%
+    ),
+    url("images/kuala-lumpur-hero-1.png") center top / cover no-repeat;
+
   z-index: 0;
 }
 .export-content-wrap,
