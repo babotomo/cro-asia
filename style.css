@@ -1233,3 +1233,14 @@ a {
   margin: 0 auto;
   display: block;
 }
+.hero {
+  position: relative;
+  width: 100vw;
+  height: 400px;
+  margin-left: calc(50% - 50vw);
+
+  background-image: url('asean-hero-4ka.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
