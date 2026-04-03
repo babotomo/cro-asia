@@ -1037,7 +1037,7 @@ a {
 }
 
 .export-hero {
-  background-image: url("images/kuala-lumpur-hero.png");
+  background-image: url("images/kuala-lumpur-hero-1.png");
 }
 
 .page-hero-overlay {
@@ -1089,7 +1089,7 @@ a {
   padding: 0 0 80px;
   background:
     linear-gradient(rgba(245, 248, 252, 0.94), rgba(245, 248, 252, 0.97)),
-    url("images/kuala-lumpur-hero.png") center bottom / cover no-repeat;
+    url("images/kuala-lumpur-hero-1.png") center bottom / cover no-repeat;
 }
 
 .export-content-wrap {
