@@ -1111,9 +1111,9 @@ a {
 }
 
 .content-card {
-  background: #ffffff;
-  border-radius: 28px;
-  box-shadow: 0 24px 60px rgba(14, 35, 78, 0.10);
+  background: transparent;
+  border-radius: 0;
+  box-shadow: none;
   padding: 56px 54px;
   margin-bottom: 34px;
 }
