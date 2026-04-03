@@ -1026,7 +1026,7 @@ a {
 .page-hero {
   position: relative;
   width: 100%;
-  min-height: 700px;
+  min-height: 800px;
   display: flex;
   align-items: stretch;
   justify-content: center;
