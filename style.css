@@ -1107,7 +1107,7 @@ a {
       rgba(245, 248, 252, 0.6) 60%,
       rgba(245, 248, 252, 1) 100%
     ),
-    url("images/kuala-lumpur-hero-1.png") center top / cover no-repeat;
+    url("images/kuala-lumpur-hero-1.png") center 30% / cover no-repeat;
 
   z-index: 0;
 }
