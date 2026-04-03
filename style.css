@@ -157,11 +157,13 @@ a {
 
 /* HERO */
 .hero {
-  width: 100%;
+  width: 100vw;
   height: 400px;
   background-image: url('slika.jpg');
   background-size: cover;
   background-position: center;
+
+  margin-left: calc(50% - 50vw);
 }
 
 .hero-bg {
