@@ -1088,10 +1088,10 @@ a {
     linear-gradient(
       to bottom,
       rgba(245, 248, 252, 0.9) 0%,
-      rgba(245, 248, 252, 0.6) 40%,
+      rgba(245, 248, 252, 0.6) 60%,
       rgba(245, 248, 252, 0.2) 100%
     ),
-    url("images/kuala-lumpur-hero-1.png") center bottom / cover no-repeat;
+    url("images/kuala-lumpur-hero-1.png") center top / cover no-repeat;
 }
 
 .export-content-wrap {
