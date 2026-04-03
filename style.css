@@ -1054,7 +1054,7 @@ a {
 }
 
 .page-hero-text {
-  max-width: 680px;
+  max-width: 100%;
   color: #ffffff;
   padding: 90px 0 80px;
 }
