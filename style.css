@@ -1034,7 +1034,7 @@ a {
 }
 
 .export-hero {
-  background-image: url("images/kuala-lumpur-hero-1.png") center / cover no-repeat;
+  background: url("images/kuala-lumpur-hero-1.png") center / cover no-repeat;
 }
 
 .page-hero-overlay {
