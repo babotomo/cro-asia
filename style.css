@@ -571,10 +571,7 @@ a {
     padding: 42px 0 110px;
   }
 
-  .hero-bg {
-    background-position: 72% center;
-  }
-
+  
   .hero-fade {
     background:
       linear-gradient(
@@ -688,13 +685,7 @@ a {
     padding: 40px 0 90px;
   }
 
-  .hero-bg {
-    width: 100%;
-    height: 100%;
-    background-size: auto 100%;
-    background-position: right center;
-    opacity: 0.95;
-  }
+ 
 
   .hero-fade {
     background: linear-gradient(
@@ -808,11 +799,7 @@ a {
     padding: 28px 0 76px;
   }
 
-  .hero-bg {
-    width: 100%;
-    background-size: cover;
-    background-position: 68% center;
-  }
+ 
 
   .hero h1 {
     font-size: 40px;
